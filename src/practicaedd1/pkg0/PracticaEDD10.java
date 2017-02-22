@@ -5,8 +5,9 @@
  */
 package practicaedd1.pkg0;
 
+import Interfaz.pantalla1_Menu;
 import javax.swing.JOptionPane;
- 
+
 /**
  *
  * @author Christian
@@ -16,15 +17,10 @@ public class PracticaEDD10 {
     /**
      * @param args the command line arguments
      */
-    
-    //---------------------------------------------------------------------------------
-    //public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) {
+//         TODO code application logic here
 
-        //JOptionPane.showInputDialog("algun insulto?");
-        //JOptionPane.showMessageDialog(null,"Usted ha dicho: " + aula);
-
-        //Main Inicio = new Main();                
-    //}
-    ///-----------------------------------------------------------------------------------
+        pantalla1_Menu menu = new pantalla1_Menu();
+        menu.setVisible(true);
+    }
 }
